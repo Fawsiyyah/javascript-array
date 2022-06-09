@@ -88,7 +88,7 @@ let Hermes = [
 let team = document.getElementById("row");
 
 for (i=0; i < Hermes.length; i++) {
-    let card = `<div class="card-wrapper col-lg-4  px-3 mb-4">
+    let card = `<div class="card-wrapper col-lg-4 col-md-6 px-3 mb-4">
                 <div class="card p-3">
                     <div class= "img-container ratio ratio-1x1">
                         <img src= "${Hermes[i].image}" alt="" class="img-fluid">
