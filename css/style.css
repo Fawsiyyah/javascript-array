@@ -46,20 +46,6 @@ body {
     box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
 }
 
-/*.card-wrapper :before {
-    --bw: 9px;
-    grid-area: 1/1;
-    content: '';
-    backface-visibility: hidden;
-   margin-top: calc(-1 * var(--bw));
-    margin-left: calc(-1 * var(--bw));
-    background: transparent;
-    transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
-    pointer-events: none;
-    border: solid blue;
-   box-sizing: content-box;
-}*/
-
 .card-wrapper:hover > div,
 .card-wrapper:hover:before {
     transform: none;
