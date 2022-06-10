@@ -99,7 +99,7 @@ for (i=0; i < Hermes.length; i++) {
                         <p class="name">${Hermes[i].thingsLearnt}</p>
                         <p class="name">${Hermes[i].bestMovie}</p>
                         <p class="name">${Hermes[i].age}</p>
-                       <button class="alert" onClick="nameAlert(${i})">Click me!</button>
+                       <button class="alert btn-dark" onClick="nameAlert(${i})">Click me!</button>
                     </div>
              </div>`;
     row.innerHTML += card;
